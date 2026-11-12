@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TiempoApp.Core/TiempoApp.Core.csproj" />
+    <Project Path="src/TiempoApp.Desktop/TiempoApp.Desktop.csproj" />
+    <Project Path="src/TiempoApp.Web/TiempoApp.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TiempoApp.Tests/TiempoApp.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <!-- Shared with TiempoApp.Desktop: the API key is configured once. -->
+    <UserSecretsId>8d974d97-a2bd-40f0-86a2-0fe626b92006</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Scalar.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TiempoApp.Core\TiempoApp.Core.csproj" />
+  </ItemGroup>
+
+</Project>

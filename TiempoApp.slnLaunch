@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Web + Desktop",
+    "Projects": [
+      {
+        "Path": "src\TiempoApp.Web\TiempoApp.Web.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "src\TiempoApp.Desktop\TiempoApp.Desktop.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
